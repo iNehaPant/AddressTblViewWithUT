@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BAA123812338C91300B1E251 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA123802338C91300B1E251 /* AppDelegate.swift */; };
+		BAA123832338C91300B1E251 /* AddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA123822338C91300B1E251 /* AddressViewController.swift */; };
+		BAA123862338C91300B1E251 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAA123842338C91300B1E251 /* Main.storyboard */; };
+		BAA123882338C91400B1E251 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAA123872338C91400B1E251 /* Assets.xcassets */; };
+		BAA1238B2338C91400B1E251 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAA123892338C91400B1E251 /* LaunchScreen.storyboard */; };
+		BAA123962338C91400B1E251 /* AddressTblViewWithUTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA123952338C91400B1E251 /* AddressTblViewWithUTTests.swift */; };
+		BAA123A12338C91400B1E251 /* AddressTblViewWithUTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA123A02338C91400B1E251 /* AddressTblViewWithUTUITests.swift */; };
+		BAA123B12338C95900B1E251 /* AddressTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA123AF2338C95900B1E251 /* AddressTableViewCell.swift */; };
+		BAA123B22338C95900B1E251 /* AddressTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAA123B02338C95900B1E251 /* AddressTableViewCell.xib */; };
+		BAA123B42338C96D00B1E251 /* AddressViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA123B32338C96D00B1E251 /* AddressViewControllerTests.swift */; };
+		BAA123B72338CA4700B1E251 /* AddressModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA123B62338CA4700B1E251 /* AddressModel.swift */; };
+		BAA123B92338CC7900B1E251 /* AddressDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA123B82338CC7900B1E251 /* AddressDataSource.swift */; };
+		BAA123BB2338D7D100B1E251 /* AddressDataSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA123BA2338D7D100B1E251 /* AddressDataSourceTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BAA123922338C91400B1E251 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAA123752338C91300B1E251 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAA1237C2338C91300B1E251;
+			remoteInfo = AddressTblViewWithUT;
+		};
+		BAA1239D2338C91400B1E251 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAA123752338C91300B1E251 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAA1237C2338C91300B1E251;
+			remoteInfo = AddressTblViewWithUT;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BAA1237D2338C91300B1E251 /* AddressTblViewWithUT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddressTblViewWithUT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAA123802338C91300B1E251 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BAA123822338C91300B1E251 /* AddressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressViewController.swift; sourceTree = "<group>"; };
+		BAA123852338C91300B1E251 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BAA123872338C91400B1E251 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAA1238A2338C91400B1E251 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BAA1238C2338C91400B1E251 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAA123912338C91400B1E251 /* AddressTblViewWithUTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddressTblViewWithUTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAA123952338C91400B1E251 /* AddressTblViewWithUTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressTblViewWithUTTests.swift; sourceTree = "<group>"; };
+		BAA123972338C91400B1E251 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAA1239C2338C91400B1E251 /* AddressTblViewWithUTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddressTblViewWithUTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAA123A02338C91400B1E251 /* AddressTblViewWithUTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressTblViewWithUTUITests.swift; sourceTree = "<group>"; };
+		BAA123A22338C91400B1E251 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAA123AF2338C95900B1E251 /* AddressTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressTableViewCell.swift; sourceTree = "<group>"; };
+		BAA123B02338C95900B1E251 /* AddressTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddressTableViewCell.xib; sourceTree = "<group>"; };
+		BAA123B32338C96D00B1E251 /* AddressViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressViewControllerTests.swift; sourceTree = "<group>"; };
+		BAA123B62338CA4700B1E251 /* AddressModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressModel.swift; sourceTree = "<group>"; };
+		BAA123B82338CC7900B1E251 /* AddressDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressDataSource.swift; sourceTree = "<group>"; };
+		BAA123BA2338D7D100B1E251 /* AddressDataSourceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressDataSourceTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAA1237A2338C91300B1E251 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAA1238E2338C91400B1E251 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAA123992338C91400B1E251 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAA123742338C91300B1E251 = {
+			isa = PBXGroup;
+			children = (
+				BAA1237F2338C91300B1E251 /* AddressTblViewWithUT */,
+				BAA123942338C91400B1E251 /* AddressTblViewWithUTTests */,
+				BAA1239F2338C91400B1E251 /* AddressTblViewWithUTUITests */,
+				BAA1237E2338C91300B1E251 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAA1237E2338C91300B1E251 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAA1237D2338C91300B1E251 /* AddressTblViewWithUT.app */,
+				BAA123912338C91400B1E251 /* AddressTblViewWithUTTests.xctest */,
+				BAA1239C2338C91400B1E251 /* AddressTblViewWithUTUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAA1237F2338C91300B1E251 /* AddressTblViewWithUT */ = {
+			isa = PBXGroup;
+			children = (
+				BAA123802338C91300B1E251 /* AppDelegate.swift */,
+				BAA123822338C91300B1E251 /* AddressViewController.swift */,
+				BAA123B82338CC7900B1E251 /* AddressDataSource.swift */,
+				BAA123B52338CA3300B1E251 /* Model */,
+				BAA123AE2338C95900B1E251 /* Cell */,
+				BAA123842338C91300B1E251 /* Main.storyboard */,
+				BAA123872338C91400B1E251 /* Assets.xcassets */,
+				BAA123892338C91400B1E251 /* LaunchScreen.storyboard */,
+				BAA1238C2338C91400B1E251 /* Info.plist */,
+			);
+			path = AddressTblViewWithUT;
+			sourceTree = "<group>";
+		};
+		BAA123942338C91400B1E251 /* AddressTblViewWithUTTests */ = {
+			isa = PBXGroup;
+			children = (
+				BAA123952338C91400B1E251 /* AddressTblViewWithUTTests.swift */,
+				BAA123B32338C96D00B1E251 /* AddressViewControllerTests.swift */,
+				BAA123BA2338D7D100B1E251 /* AddressDataSourceTests.swift */,
+				BAA123972338C91400B1E251 /* Info.plist */,
+			);
+			path = AddressTblViewWithUTTests;
+			sourceTree = "<group>";
+		};
+		BAA1239F2338C91400B1E251 /* AddressTblViewWithUTUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BAA123A02338C91400B1E251 /* AddressTblViewWithUTUITests.swift */,
+				BAA123A22338C91400B1E251 /* Info.plist */,
+			);
+			path = AddressTblViewWithUTUITests;
+			sourceTree = "<group>";
+		};
+		BAA123AE2338C95900B1E251 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				BAA123AF2338C95900B1E251 /* AddressTableViewCell.swift */,
+				BAA123B02338C95900B1E251 /* AddressTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		BAA123B52338CA3300B1E251 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BAA123B62338CA4700B1E251 /* AddressModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAA1237C2338C91300B1E251 /* AddressTblViewWithUT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAA123A52338C91400B1E251 /* Build configuration list for PBXNativeTarget "AddressTblViewWithUT" */;
+			buildPhases = (
+				BAA123792338C91300B1E251 /* Sources */,
+				BAA1237A2338C91300B1E251 /* Frameworks */,
+				BAA1237B2338C91300B1E251 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AddressTblViewWithUT;
+			productName = AddressTblViewWithUT;
+			productReference = BAA1237D2338C91300B1E251 /* AddressTblViewWithUT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BAA123902338C91400B1E251 /* AddressTblViewWithUTTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAA123A82338C91400B1E251 /* Build configuration list for PBXNativeTarget "AddressTblViewWithUTTests" */;
+			buildPhases = (
+				BAA1238D2338C91400B1E251 /* Sources */,
+				BAA1238E2338C91400B1E251 /* Frameworks */,
+				BAA1238F2338C91400B1E251 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAA123932338C91400B1E251 /* PBXTargetDependency */,
+			);
+			name = AddressTblViewWithUTTests;
+			productName = AddressTblViewWithUTTests;
+			productReference = BAA123912338C91400B1E251 /* AddressTblViewWithUTTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BAA1239B2338C91400B1E251 /* AddressTblViewWithUTUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAA123AB2338C91400B1E251 /* Build configuration list for PBXNativeTarget "AddressTblViewWithUTUITests" */;
+			buildPhases = (
+				BAA123982338C91400B1E251 /* Sources */,
+				BAA123992338C91400B1E251 /* Frameworks */,
+				BAA1239A2338C91400B1E251 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAA1239E2338C91400B1E251 /* PBXTargetDependency */,
+			);
+			name = AddressTblViewWithUTUITests;
+			productName = AddressTblViewWithUTUITests;
+			productReference = BAA1239C2338C91400B1E251 /* AddressTblViewWithUTUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAA123752338C91300B1E251 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Neha Pant";
+				TargetAttributes = {
+					BAA1237C2338C91300B1E251 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					BAA123902338C91400B1E251 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = BAA1237C2338C91300B1E251;
+					};
+					BAA1239B2338C91400B1E251 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = BAA1237C2338C91300B1E251;
+					};
+				};
+			};
+			buildConfigurationList = BAA123782338C91300B1E251 /* Build configuration list for PBXProject "AddressTblViewWithUT" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAA123742338C91300B1E251;
+			productRefGroup = BAA1237E2338C91300B1E251 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAA1237C2338C91300B1E251 /* AddressTblViewWithUT */,
+				BAA123902338C91400B1E251 /* AddressTblViewWithUTTests */,
+				BAA1239B2338C91400B1E251 /* AddressTblViewWithUTUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAA1237B2338C91300B1E251 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAA1238B2338C91400B1E251 /* LaunchScreen.storyboard in Resources */,
+				BAA123B22338C95900B1E251 /* AddressTableViewCell.xib in Resources */,
+				BAA123882338C91400B1E251 /* Assets.xcassets in Resources */,
+				BAA123862338C91300B1E251 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAA1238F2338C91400B1E251 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAA1239A2338C91400B1E251 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAA123792338C91300B1E251 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAA123B72338CA4700B1E251 /* AddressModel.swift in Sources */,
+				BAA123B12338C95900B1E251 /* AddressTableViewCell.swift in Sources */,
+				BAA123B92338CC7900B1E251 /* AddressDataSource.swift in Sources */,
+				BAA123832338C91300B1E251 /* AddressViewController.swift in Sources */,
+				BAA123812338C91300B1E251 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAA1238D2338C91400B1E251 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAA123B42338C96D00B1E251 /* AddressViewControllerTests.swift in Sources */,
+				BAA123BB2338D7D100B1E251 /* AddressDataSourceTests.swift in Sources */,
+				BAA123962338C91400B1E251 /* AddressTblViewWithUTTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAA123982338C91400B1E251 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAA123A12338C91400B1E251 /* AddressTblViewWithUTUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BAA123932338C91400B1E251 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAA1237C2338C91300B1E251 /* AddressTblViewWithUT */;
+			targetProxy = BAA123922338C91400B1E251 /* PBXContainerItemProxy */;
+		};
+		BAA1239E2338C91400B1E251 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAA1237C2338C91300B1E251 /* AddressTblViewWithUT */;
+			targetProxy = BAA1239D2338C91400B1E251 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BAA123842338C91300B1E251 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAA123852338C91300B1E251 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BAA123892338C91400B1E251 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAA1238A2338C91400B1E251 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BAA123A32338C91400B1E251 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BAA123A42338C91400B1E251 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAA123A62338C91400B1E251 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AddressTblViewWithUT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = access.test.AddressTblViewWithUT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BAA123A72338C91400B1E251 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AddressTblViewWithUT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = access.test.AddressTblViewWithUT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BAA123A92338C91400B1E251 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AddressTblViewWithUTTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = access.test.AddressTblViewWithUTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AddressTblViewWithUT.app/AddressTblViewWithUT";
+			};
+			name = Debug;
+		};
+		BAA123AA2338C91400B1E251 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AddressTblViewWithUTTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = access.test.AddressTblViewWithUTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AddressTblViewWithUT.app/AddressTblViewWithUT";
+			};
+			name = Release;
+		};
+		BAA123AC2338C91400B1E251 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AddressTblViewWithUTUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = access.test.AddressTblViewWithUTUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AddressTblViewWithUT;
+			};
+			name = Debug;
+		};
+		BAA123AD2338C91400B1E251 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AddressTblViewWithUTUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = access.test.AddressTblViewWithUTUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AddressTblViewWithUT;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAA123782338C91300B1E251 /* Build configuration list for PBXProject "AddressTblViewWithUT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAA123A32338C91400B1E251 /* Debug */,
+				BAA123A42338C91400B1E251 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAA123A52338C91400B1E251 /* Build configuration list for PBXNativeTarget "AddressTblViewWithUT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAA123A62338C91400B1E251 /* Debug */,
+				BAA123A72338C91400B1E251 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAA123A82338C91400B1E251 /* Build configuration list for PBXNativeTarget "AddressTblViewWithUTTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAA123A92338C91400B1E251 /* Debug */,
+				BAA123AA2338C91400B1E251 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAA123AB2338C91400B1E251 /* Build configuration list for PBXNativeTarget "AddressTblViewWithUTUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAA123AC2338C91400B1E251 /* Debug */,
+				BAA123AD2338C91400B1E251 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAA123752338C91300B1E251 /* Project object */;
+}
